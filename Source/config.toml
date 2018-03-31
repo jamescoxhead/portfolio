@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "Portfolio - James Coxhead"
+theme = "Portfolio"
