@@ -1,8 +1,14 @@
 {{ define "main" }}
 
 <h1>Portfolio</h1>
-<p></p>
 
+{{ with .Sections }}
+  {{ range .ByWeight.Reverse }}
+    {{ partial "section.html" . }}
+  {{ end }}
+{{ end }}
+
+<!--
 <h2>MerchantCantos</h2>
 <div class="row">
   <div class="col-lg-6 mb-3">
@@ -132,6 +138,6 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo ante ut tempor porta. Duis interdum nulla id lacus ultricies suscipit. Vestibulum tincidunt lorem non ex vehicula, nec elementum erat eleifend. Cras eget nisl ante.</p>
       </div>
     </div>
-  </div>
+  </div>-->
 
   {{ end }}
