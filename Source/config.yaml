@@ -6,5 +6,4 @@ theme: "Portfolio"
 disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
 enableRobotsTXT: true
 metaDataFormat: "yaml"
-googleAnalytics: "UA-12345"
 ---
