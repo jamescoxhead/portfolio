@@ -4,7 +4,7 @@ languageCode: "en-gb"
 title: "Portfolio - James Coxhead"
 theme: "Portfolio"
 disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
-enableRobotsTX: true
+enableRobotsTXT: true
 metaDataFormat: "yaml"
 googleAnalytics: "UA-12345"
 ---

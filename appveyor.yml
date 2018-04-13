@@ -9,7 +9,7 @@ init:
 
 install:
   - git submodule update --init --recursive
-  - ps: cinst hugo --version 0.30
+  - ps: cinst hugo --version 0.38
 
 cache:
   - C:\ProgramData\chocolatey\bin -> appveyor.yml
