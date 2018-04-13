@@ -1,14 +1,19 @@
-{{- $projectName := .Params.ClientName | default .Title -}}
+{{- $clientName := .Params.clientName | default .Title -}}
 {{- $imagePath := print "/screenshots" (strings.TrimSuffix "/" .RelPermalink) ".png" -}}
 <div class="col-lg-6 mb-3">
   <div class="card h-100">
     {{ if (fileExists (print "static" $imagePath)) -}}
-      <img src="{{ $imagePath }}" alt="{{ $projectName }}" class="card-img-top">
+      <img src="{{ $imagePath }}" alt="{{ $clientName }}" class="card-img-top">
     {{- end }}
     <div class="card-body">
-      <h4 class="card-title"><a href="{{ .Params.ProjectUrl }}" target="_blank">{{ $projectName }}</a></h4>
+      <h4 class="card-title">
+        {{ if (isset .Params "projecturl") }}
+          <a href="{{ .Params.ProjectUrl }}" target="_blank">{{ $clientName }}</a>
+        {{ else }}
+          {{ $clientName }}
+        {{ end }}
+      </h4>
       {{ if isset .Params "projectname" }}<h5 class="card-subtitle text-muted">{{ .Params.ProjectName }}</h5>{{ end }}
-      <p>{{$imagePath}}</p>
       {{ .Content }}
     </div>
   </div>
