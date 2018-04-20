@@ -2,6 +2,7 @@
 title: "Baker Tilly Brand Portal"
 date: 2018-04-13
 weight: 10
+draft: true
 
 clientName: Baker Tilly International
 projectName: Brand Portal

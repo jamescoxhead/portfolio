@@ -2,6 +2,7 @@
 title: "Taste Festivals"
 date: 2018-04-14T08:44:49+01:00
 weight: 60
+draft: true
 
 projectName: Multi-lingual websites
 projectUrl: https://london.tastefestivals.com/

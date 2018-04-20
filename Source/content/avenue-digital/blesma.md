@@ -2,6 +2,7 @@
 title: "Blesma"
 date: 2018-04-14T23:32:49+01:00
 weight: 30
+draft: true
 
 projectName: Umbraco upgrade and reskin
 projectUrl: https://blesma.org
