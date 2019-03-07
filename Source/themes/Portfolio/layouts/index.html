@@ -3,7 +3,7 @@
 <h1>Portfolio</h1>
 
 {{- with .Sections -}}
-  {{- range .ByWeight.Reverse -}}
+  {{- range .ByDate.Reverse -}}
     {{- partial "section.html" . -}}
   {{- end -}}
 {{- end -}}

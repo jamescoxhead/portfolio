@@ -1,6 +1,6 @@
 ---
 title: "Ahold Delhaize"
-date: 2018-04-16T21:42:51+01:00
+date: 2016-08-01
 weight: 10
 
 projectName: Corporate website and extranet

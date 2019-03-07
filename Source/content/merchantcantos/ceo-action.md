@@ -1,6 +1,6 @@
 ---
 title: "CEO Action"
-date: 2018-04-16T21:43:30+01:00
+date: 2017-06-01
 weight: 40
 
 projectUrl: https://www.ceoaction.com
