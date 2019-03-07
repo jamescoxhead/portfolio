@@ -1,7 +1,7 @@
 [build]
-  base = "src"
+  base = "Source"
   command = "hugo"
-  publish = "src/public"
+  publish = "Source/public"
 
 [build.environment]
   HUGO_VERSION = "0.38"
