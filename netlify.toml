@@ -1,0 +1,14 @@
+[build]
+  base = "src"
+  command = "hugo"
+  publish = "src/public"
+
+[build.environment]
+  HUGO_VERSION = "0.38"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
