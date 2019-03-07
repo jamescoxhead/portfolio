@@ -2,7 +2,7 @@
   <h2>{{ .Title }}</h2>
 
   <div class="row">
-    {{- range .Pages.ByWeight -}}
+    {{- range .Pages.ByDate.Reverse -}}
       {{- partial "project.html" . -}}
     {{- end -}}
   </div>
