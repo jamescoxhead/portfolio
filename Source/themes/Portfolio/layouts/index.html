@@ -1,7 +1,13 @@
+{{ define "header" }}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
+
 {{ define "main" }}
-
-<h1>Portfolio</h1>
-
 {{- with .Sections -}}
   {{- range .ByDate.Reverse -}}
     {{- partial "section.html" . -}}

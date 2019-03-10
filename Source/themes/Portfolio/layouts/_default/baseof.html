@@ -14,16 +14,18 @@
   <link rel="stylesheet" href="css/icons.css">
 </head>
 <body>
+  {{ block "header" . }}
+  {{ end }}
+
   <div class="container mt-4">
     {{ block "main" . }}
     {{ end }}
-    </div>
   </div>
 
-  <footer class="bg-light py-3">
+  <footer class="py-3" style="background-color: #f6f6f6; border-top: 1px solid #dee2e6">
     <div class="container text-center">
-      <p>&copy; 2018 <a href="https://www.jamescoxhead.co.uk" target="_blank">James Coxhead</a>.</p>
-      <p class="mb-0"><a href="https://www.linkedin.com/in/jamescoxhead/" target="_blank" class="icon-linkedin"><span class="sr-only">LinkedIn</span></a>&nbsp;<a href="https://github.com/jamescoxhead" target="_blank" class="icon-github-circled"><span class="sr-only">Github</span></a></p>
+      <p>&copy; 2019 <a href="{{ .Site.Params.personal }}" target="_blank">James Coxhead</a></p>
+      <p class="mb-0"><a href="{{ .Site.Params.linkedin }}" target="_blank" class="icon-linkedin"><span class="sr-only">View my LinkedIn profile</span></a>&nbsp;<a href="{{ .Site.Params.github }}" target="_blank" class="icon-github-circled"><span class="sr-only">View my Github profile</span></a></p>
     </div>
   </footer>
 

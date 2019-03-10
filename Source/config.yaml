@@ -6,4 +6,9 @@ theme: "Portfolio"
 disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
 enableRobotsTXT: true
 metaDataFormat: "yaml"
+
+params:
+  personal: "https://www.jamescoxhead.co.uk"
+  linkedin: "https://www.linkedin.com/in/jamescoxhead/"
+  github: "https://github.com/jamescoxhead"
 ---
