@@ -1,7 +1,7 @@
 [build]
-  base = "src"
+  base = "Source"
   command = "hugo"
-  publish = "src/public"
+  publish = "Source/public"
 
 [build.environment]
   HUGO_VERSION = "0.38"
@@ -12,3 +12,4 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
+    X-Robots-Tag = "none"

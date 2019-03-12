@@ -1,8 +1,6 @@
 ---
 title: "Enclosure Interiors"
-date: 2018-04-14T23:33:12+01:00
-weight: 50
-draft: true
+date: 2016-01-01
 
 projectUrl: https://www.enclosureinteriors.com/
 ---

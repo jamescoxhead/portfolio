@@ -1,8 +1,6 @@
 ---
 title: "Anna Freud Centre"
-date: 2018-04-14T08:45:54+01:00
-weight: 70
-draft: true
+date: 2015-08-01
 
 projectName: Website, extranet, booking engine
 projectUrl: https://www.annafreud.org/

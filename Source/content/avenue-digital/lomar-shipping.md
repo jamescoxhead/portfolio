@@ -1,8 +1,6 @@
 ---
 title: "Lomar Shipping"
-date: 2018-04-14T23:33:01+01:00
-weight: 40
-draft: true
+date: 2016-03-01
 
 projectUrl: https://www.lomarshipping.com/
 ---
