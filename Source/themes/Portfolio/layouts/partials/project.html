@@ -8,7 +8,7 @@
     <div class="card-body">
       <h4 class="card-title">
         {{ if (isset .Params "projecturl") }}
-          <a href="{{ .Params.ProjectUrl }}" target="_blank">{{ $clientName }}</a>
+          <a href="{{ .Params.ProjectUrl }}" target="_blank" rel="noreferrer">{{ $clientName }}</a>
         {{ else }}
           {{ $clientName }}
         {{ end }}
