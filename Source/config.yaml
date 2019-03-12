@@ -6,6 +6,7 @@ theme: "Portfolio"
 disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
 enableRobotsTXT: true
 metaDataFormat: "yaml"
+googleAnalytics: "UA-71327980-2"
 
 params:
   personal: "https://www.jamescoxhead.co.uk"
