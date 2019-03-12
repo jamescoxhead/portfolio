@@ -1,7 +1,6 @@
 ---
 title: "Blesma"
-date: 2018-04-13T16:23:21+01:00
-weight: 30
+date: 2013-06-01
 
 clientName: Blesma
 projectUrl: https://blesma.org/
