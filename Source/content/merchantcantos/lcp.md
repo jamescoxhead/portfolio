@@ -1,7 +1,7 @@
 ---
 title: "LCP"
 date: 2016-10-01
-weight: 20
+draft: true
 
 clientName:
 projectName:

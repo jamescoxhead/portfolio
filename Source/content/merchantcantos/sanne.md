@@ -1,11 +1,10 @@
 ---
 title: "Sanne"
 date: 2017-01-01
-weight: 30
 
 clientName:
 projectName:
-projectUrl:
+projectUrl: https://www.sannegroup.com/
 ---
 
-A brief description of the project here.
+Corporate website build which started off as a baseline for MerchantCantos's new Umbraco framework. This included content modules using Nested Content, allowing editors flexibility when building pages.
