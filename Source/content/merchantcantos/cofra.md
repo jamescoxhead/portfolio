@@ -7,4 +7,4 @@ projectName: Corporate Website
 projectUrl: https://www.cofra-holding.com
 ---
 
-Development of a multilingual brochureware website. The site makes heavy use of Examine to find related content based on a tagging taxonomy. Multilingual content was handled using Vorto.
+Corporate website build which extended the multilingual and tagging capabilities from Frontier Economics into a multi-site solution. The application was built as a headless CMS, with content fed via an API into a single-page front end built using React.
