@@ -13,5 +13,5 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     X-Robots-Tag = "none"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' www.googletagmanager.com code.jquery.com cdnjs.cloudflare.com stackpath.bootstrapcdn.com 'sha256-qYC3CzA3TS7zaDsLQzTTYxeLJPZaJTz0x2U/AxQrHQs='; style-src 'self' *.cloudfront.net fonts.googleapis.com; img-src 'self' *.cloudfront.net; font-src 'self' fonts.googleapis.com fonts.gstatic.com *.cloudfront.net; form-action 'self'; manifest-src 'self'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' www.googletagmanager.com code.jquery.com cdnjs.cloudflare.com stackpath.bootstrapcdn.com 'sha256-2B0AcnHXI3qsoa+IqLDQUEMDKn4NuQKgx0eH+lWVv+s='; style-src 'self' *.cloudfront.net fonts.googleapis.com; img-src 'self' *.cloudfront.net; font-src 'self' fonts.googleapis.com fonts.gstatic.com *.cloudfront.net; form-action 'self'; manifest-src 'self'"
     Referrer-Policy = "strict-origin-when-cross-origin"
