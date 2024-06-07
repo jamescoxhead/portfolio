@@ -1,15 +1,17 @@
----
-baseURL: "http://example.org/"
+baseURL: "https://portfolio.jamescoxhead.co.uk"
 languageCode: "en-gb"
 title: "Portfolio - James Coxhead"
 theme: "Portfolio"
-disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
+disableKinds: ["RSS", "taxonomy", "sitemap"]
 enableRobotsTXT: true
 metaDataFormat: "yaml"
-googleAnalytics: "UA-71327980-2"
+
+services:
+  googleAnalytics:
+    ID: G-MSC9W5V8F4
 
 params:
   personal: "https://www.jamescoxhead.co.uk"
   linkedin: "https://www.linkedin.com/in/jamescoxhead/"
   github: "https://github.com/jamescoxhead"
----
+
